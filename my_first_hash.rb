@@ -14,7 +14,7 @@ def shipping_manifest
   the_manifest = {
     "whale_bone_corsets" => 5,
     "porcelain_vases" => 2,
-    "oil_painting" => 3 
+    "oil_painting" => 3
   }
 
 
@@ -28,6 +28,7 @@ def retrieval
                  }
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
+  shipping_manifest['oil paintings']
 
 end
 
